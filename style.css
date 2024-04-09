@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   background-color: #7f44ee;
+  color: #fff;
 }
 
 .container {
@@ -34,7 +35,6 @@
 }
 
 .section1 h1 {
-  color: #37110d;
   font-size: 2rem;
 }
 
@@ -67,7 +67,7 @@
   padding: 8px 0;
   margin: 12px 22px;
   min-width: 20vw;
-  border: 2px solid rgb(120, 54, 16);
+  border: 2px solid white;
   border-radius: 8px;
   text-align: center;
 }
