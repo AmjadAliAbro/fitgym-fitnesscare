@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+  header nav {
+    font-size: 10px;
+  }
+
+  .navbar li {
+    margin: 0 5px;
+  }
+
+  .logo {
+    font-size: 15px;
+  }
+
+  .btn {
+    font-size: 8px;
+  }
+
+  .dumbellimg {
+    padding: 30px 10px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .section1 .my-1 {
+    font-size: 20px;
+    padding: 0 20px;
+    width: 30vw;
+  }
+
+  .section1 p {
+    font-size: 10px;
+    padding: 0 10px;
+  }
+
+  .section2 {
+    font-size: 10px;
+  }
+
+  .section2 h1 {
+    font-size: 23px;
+  }
+
+  .section2 h2 {
+    font-size: 15px;
+  }
+
+  .highlighted {
+    font-size:12px;
+  }
+
+  .box{
+    padding: 5px;
+  }
+
+  .section3 {
+    font-size: 10px;
+  }
+
+  .section3 h1{
+    font-size: 23px;
+  }
+}

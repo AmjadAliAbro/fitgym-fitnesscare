@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FITGYM - FITNESS CARE</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="timer.js"></script>
-    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="utils.css" />
     <link rel="stylesheet" href="./responsive.css">
-</head>
-
-<body class='overflow-x-hidden'>
+  </head>
+  <body class="overflow-x-hidden">
     <div class="container mx-auto">
-        <header>
-            <nav class="flex justify-between">
-                <div class="logo font-bold flex items-center text-blue">FITGYM</div>
-                <ul class="navbar flex items-center">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact Us</li>
-                    <li><button class="btn">Join Now</button></li>
-                </ul>
-            </nav>
-            <hr>
-        </header>
-        <main class="min-h-screen">
-            <section class="section1">
+
+      <!-- Navbar -->
+      <header>
+        <nav class="flex justify-between">
+          <div class="logo font-bold flex items-center text-blue">FITGYM</div>
+          <ul class="navbar flex items-center">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+            <li><button class="btn">Join Now</button></li>
+          </ul>
+        </nav>
+        <hr />
+      </header>
+
+      <!-- Main Content Start -->
+      <main class="min-h-screen">
+
+        <!-- Section One -->
+        <section class="section1">
                 <div class="flex">
                     <div class="topleft flex flex-col justify-center px-2">
                         <div class=" text-center">
@@ -39,7 +43,6 @@
                             error corporis fugit dolore adipisci aperiam omnis nisi dolores hic eius in ex id iure, ea
                             sunt asperiores et voluptatibus dignissimos autem maiores molestias dolor rem delectus
                             quidem! Inventore.</p>
-                            <!-- Display the countdown timer in an element -->
                             <p class="deal text-center">The Deal Ends In <span id="demo"></span></p>
                             <div class="buttons">
                                 <button class="btn">Join now</button>
@@ -47,17 +50,17 @@
                             </div>
                     </div>
                     <div class="topright flex justify-center">
-                        <img class="gymimg" src="gym.png" alt="">
                     </div>
                 </div>
             </section>
             <hr>
-            <section class="section2">
+
+            <!-- Section Two -->
+        <section class="section2">
                 <h1 class="text-center my-2">Pricing</h1>
                 <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis provident
                     suscipit temporibus modi voluptatem. Assumenda aspernatur ad nihil quasi expedita eligendi atque?
-                    Dolorum eum deserunt dicta iste beatae commodi, doloribus expedita hic recusandae, tempora illum
-                    consequuntur? Necessitatibus voluptate animi repellendus reiciendis!</p>
+                    Dolorum eum deserunt dicta iste beatae commodi, doloribus expedita!</p>
                 <div class="boxes flex justify-center">
                     <div class="box">
                         <h2>Free</h2>
@@ -96,7 +99,9 @@
                 </div>
             </section>
             <hr>
-            <section class="section3">
+
+            <!-- Section Three -->
+        <section class="section3">
                 <h1 class="text-center my-2">Compare Plans</h1>
                 <div class="container plantable">
                     <table class="table text-center">
@@ -151,12 +156,12 @@
                     </table>
             </section>
             <hr>
-        </main>
-        <footer>
+      </main>
+
+      <!-- Footer -->
+      <footer>
             Copyright &copy; www.fitgym.com | All rights reserved
         </footer>
-
     </div>
-</body>
-
+  </body>
 </html>
