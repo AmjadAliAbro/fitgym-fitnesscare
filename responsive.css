@@ -11,6 +11,11 @@
     font-size: 15px;
   }
 
+  .boxes {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
   .btn {
     font-size: 8px;
   }
@@ -24,7 +29,6 @@
   .section1 .my-1 {
     font-size: 20px;
     padding: 0 20px;
-    width: 30vw;
   }
 
   .section1 p {
